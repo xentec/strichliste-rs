@@ -199,7 +199,7 @@ pub fn SingleArticleView(article: Article) -> impl IntoView {
                 <input
                     class="w-full bg-indigo-700 hover:bg-pink-700 text-white font-bold py-2 px-4 mb-6 rounded"
                     type="submit"
-                    value="Upate article"
+                    value="Update article"
                     on:click=on_click
                 />
             </div>
